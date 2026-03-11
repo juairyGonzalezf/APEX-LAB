@@ -1,5 +1,3 @@
-/bin/sh: line 1: /home/tomcat/import/sync_git.sh: Permission denied
-From github.com:juairyGonzalezf/APEX-LAB
- * branch            main       -> FETCH_HEAD
- * [new branch]      main       -> server21/main
-Rebasing (1/1)Successfully rebased and updated refs/heads/home/tomcat/export.
+
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
