@@ -2,7 +2,7 @@
 cd /home/tomcat/import
 
 # Intentar sincronizar primero para evitar el error que te acaba de dar
-git pull server21 home/tomcat/import --rebase
+#git pull server21 home/tomcat/import 
 
 # Añadir cambios nuevos
 git add .
