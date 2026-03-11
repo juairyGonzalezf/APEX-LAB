@@ -1,0 +1,72 @@
+Iniciando exportacion masiva...
+Procesando Workspace: TEST [5401601323772619]
+Exporting Workspace 5401601323772619:TEST
+File apex_240200/xepdb1/TEST/w5401601323772619.sql created
+
+File apex_240200/xepdb1/TEST/files_5401601323772619.sql created
+
+Exporting Workspace TEST - application 101:PruebaJRI
+File apex_240200/xepdb1/TEST/f101.sql created
+Exporting Workspace TEST - application 120:test
+File apex_240200/xepdb1/TEST/f120.sql created
+Exporting Workspace TEST - application 200:Project PAGE ITEMS (TEMA8)
+File apex_240200/xepdb1/TEST/f200.sql created
+Exporting Workspace TEST - application 201:Project2
+File apex_240200/xepdb1/TEST/f201.sql created
+Exporting Workspace TEST - application 202:Project PAGE Computation and processiong (TEMA9)
+File apex_240200/xepdb1/TEST/f202.sql created
+Exporting Workspace TEST - application 203:(TEMA10)Creating and Using Dynamic Actions
+File apex_240200/xepdb1/TEST/f203.sql created
+Exporting Workspace TEST - application 204:Defoult From and Grid
+File apex_240200/xepdb1/TEST/f204.sql created
+Exporting Workspace TEST - application 205:(TEMA11)Managing Cards, Faceted Search, and Smart Filters
+File apex_240200/xepdb1/TEST/f205.sql created
+Exporting Workspace TEST - application 206:(TEMA12)Creating and Using Forms
+File apex_240200/xepdb1/TEST/f206.sql created
+Exporting Workspace TEST - application 207:Sample Charts
+File apex_240200/xepdb1/TEST/f207.sql created
+Exporting Workspace TEST - application 208:Demonstration - EMP / DEPT
+File apex_240200/xepdb1/TEST/f208.sql created
+Exporting Workspace TEST - application 209:Sample Document Generator
+File apex_240200/xepdb1/TEST/f209.sql created
+Exporting Workspace TEST - application 210:(TEMA13)Implementing Navigation in your Application
+File apex_240200/xepdb1/TEST/f210.sql created
+Exporting Workspace TEST - application 211:Project INTERACTIVE GRID
+File apex_240200/xepdb1/TEST/f211.sql created
+Exporting Workspace TEST - application 212:Demonstration - Projects
+File apex_240200/xepdb1/TEST/f212.sql created
+Exporting Workspace TEST - application 213:(TEMA 15)Extending Application Capabilities
+File apex_240200/xepdb1/TEST/f213.sql created
+Exporting Workspace TEST - application 214:(TEMA16)Managing Application Data
+File apex_240200/xepdb1/TEST/f214.sql created
+Exporting Workspace TEST - application 215:(TEMA17)Implementing Security in your Application
+File apex_240200/xepdb1/TEST/f215.sql created
+
+Procesando Workspace: TEST2 [7605142232319369]
+Exporting Workspace 7605142232319369:TEST2
+File apex_240200/xepdb1/TEST2/w7605142232319369.sql created
+
+File apex_240200/xepdb1/TEST2/files_7605142232319369.sql created
+
+Exporting Workspace TEST2 - application 100:Sample Calendar test2
+File apex_240200/xepdb1/TEST2/f100.sql created
+Exporting Workspace TEST2 - application 103:Sample Calendar
+File apex_240200/xepdb1/TEST2/f103.sql created
+
+Procesando Workspace: TESTWORKSPACE [3200966620849279]
+Exporting Workspace 3200966620849279:TESTWORKSPACE
+File apex_240200/xepdb1/TESTWORKSPACE/w3200966620849279.sql created
+
+File apex_240200/xepdb1/TESTWORKSPACE/files_3200966620849279.sql created
+
+Exporting Workspace TESTWORKSPACE - application 104:Defoult From and Grid
+File apex_240200/xepdb1/TESTWORKSPACE/f104.sql created
+Exporting Workspace TESTWORKSPACE - application 105:(TEMA11)Managing Cards, Faceted Search, and Smart Filters
+File apex_240200/xepdb1/TESTWORKSPACE/f105.sql created
+
+Finalizado.
+
+FIN_BACKUP             
+______________________ 
+03-07-2026 12:59:28    
+
