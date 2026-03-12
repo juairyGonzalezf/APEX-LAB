@@ -1,0 +1,44 @@
+[main 4e16b81] Auto-sync: 2026-03-11 23:22:44
+ Committer: server21 <tomcat@server21.kratos150.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 28 files changed, 15 insertions(+), 500418 deletions(-)
+ delete mode 100644 export/error.log
+ delete mode 100644 export/export.cron.log
+ delete mode 100644 export/export.lst
+ delete mode 100644 export/export.sh
+ delete mode 100644 export/export.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f100.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f101.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f102.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f103.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f104.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f105.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f106.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f107.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f108.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f109.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f110.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f111.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f112.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f113.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f114.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f115.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/f116.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/files_3200966620849279.sql
+ delete mode 100644 export/exports/TESTWORKSPACE/w3200966620849279.sql
+ create mode 100644 git_sync.log
+ delete mode 100644 import/import.sh
+ delete mode 100644 import/import.sql
+ create mode 100755 sync_git.sh
+To github.com:juairyGonzalezf/APEX-LAB.git
+   188b9d4..4e16b81  main -> main
