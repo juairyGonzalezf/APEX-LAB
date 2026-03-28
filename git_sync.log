@@ -162,3 +162,10 @@ To github.com:juairyGonzalezf/APEX-LAB.git
  1 file changed, 4 insertions(+)
 To github.com:juairyGonzalezf/APEX-LAB.git
    aa7a4cd..43c6c37  main -> main
+[main 37a8ff3] Auto-sync: 2026-03-28 12:00:01
+ 1 file changed, 4 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
