@@ -1,18 +1,18 @@
 #!/bin/bash
 
 # --- CONFIGURACIÓN PARA ISSES-AP25302VD (GESTIOD_PDB) ---
-DB_USER="APEX_240200"
+DB_USER="APEX_240100"
 DB_PASS="123"
-DB_HOST="server1"
-DB_PORT="1521"
-DB_SERVICE="xepdb1"
+DB_HOST="server21"
+DB_PORT="31521"
+DB_SERVICE="oraclepdb1"
 
 # Como indicaste que el usuario de conexión es el dueño del esquema:
 APEX_SCHEMA_OWNER="$DB_USER" 
 
 CONN_STR="${DB_USER}/${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_SERVICE}"
 LOCAL_WORK_DIR="/home/tomcat/export"
-NFS_DEST_DIR="/home/tomcat/export/apex_240200/${DB_SERVICE}"
+NFS_DEST_DIR="/home/tomcat/export/apex_240100/${DB_SERVICE}"
 
 mkdir -p "${LOCAL_WORK_DIR}"
 mkdir -p "${NFS_DEST_DIR}"
