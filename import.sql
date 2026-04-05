@@ -1,7 +1,8 @@
 set define off
 WHENEVER SQLERROR CONTINUE
 spool /home/tomcat/import/import_execution.log
-PROMPT --- Workspace TEST ya existe. Saltando creación.
+PROMPT --- Creando Workspace TEST
+@/home/tomcat/export/apex_240200/xepdb1/TEST/w5401601323772619.sql
 PROMPT --- Configurando Sesión para TEST
 begin
   apex_application_install.set_workspace('TEST');

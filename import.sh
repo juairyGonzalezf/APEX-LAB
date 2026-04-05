@@ -5,7 +5,7 @@ DB_USER="APEX_240200"
 DB_PASS="123"
 DB_HOST="server21"
 DB_PORT="31521"
-DB_SERVICE="oraclepdb1"
+DB_SERVICE="oraclepdb2"
 SOURCE_ENV="xepdb1"
 SQLCL_CMD="sqlcl"
 
