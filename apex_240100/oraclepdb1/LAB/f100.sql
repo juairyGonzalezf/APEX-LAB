@@ -39,7 +39,7 @@ prompt APPLICATION 100 - Sample Collections
 -- Application Export:
 --   Application:     100
 --   Name:            Sample Collections
---   Date and Time:   16:27 Saturday March 28, 2026
+--   Date and Time:   08:58 Monday April 13, 2026
 --   Exported By:     APEX_240100
 --   Flashback:       0
 --   Export Type:     Application Export

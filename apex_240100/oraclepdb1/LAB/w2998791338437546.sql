@@ -26,7 +26,7 @@ end;
 prompt  WORKSPACE 2998791338437546
 --
 -- Workspace, User Group, User, and Team Development Export:
---   Date and Time:   16:27 Saturday March 28, 2026
+--   Date and Time:   08:58 Monday April 13, 2026
 --   Exported By:     APEX_240100
 --   Export Type:     Workspace Export
 --   Version:         24.1.0
@@ -136,55 +136,73 @@ end;
 --
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3398956575522233,
+    p_id => 5198525097629556,
     p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'APEX_IG_359175352067742002_CURRENT_REPORT',
-    p_attribute_value => '359189423622765512:GRID',
+    p_preference_name => 'FSP_IR_4500_P800_W40286123901665046',
+    p_attribute_value => '40287209100674551____',
     p_tenant_id => '');
 end;
 /
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3209876164506817,
+    p_id => 5198720828630550,
     p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'APEX_IG_5402528899234735_CURRENT_REPORT',
-    p_attribute_value => '27818993000237613:ICON',
+    p_preference_name => 'FSP_IR_4500_P6_W197497511891067300',
+    p_attribute_value => '197504409480105184____',
     p_tenant_id => '');
 end;
 /
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3398873519517936,
+    p_id => 6002746090193274,
     p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'APEX_IG_754958438006534386_CURRENT_REPORT',
-    p_attribute_value => '754972509561557896:GRID',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
-    p_id => 3204368697467811,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FB_FLOW_ID',
-    p_attribute_value => '100',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
-    p_id => 3204599670470973,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP100_P6_R8870310831876331300_SORT',
+    p_preference_name => 'FSP102_P1000_R155440474861360291_SORT',
     p_attribute_value => 'sort_1_asc',
     p_tenant_id => '');
 end;
 /
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3204437116470973,
+    p_id => 6002874553193275,
     p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP100_P6_R8870322933589345658_SORT',
-    p_attribute_value => 'sort_2_asc',
+    p_preference_name => 'FSP102_P1000_R160577156476247576_SORT',
+    p_attribute_value => 'sort_1_asc',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 6003131629225920,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_102_P3_W20222495597101386',
+    p_attribute_value => '20228104162103682____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 6003247850226127,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP102_P6_R23315295512127876_SORT',
+    p_attribute_value => 'sort_1_asc',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 6003462273226339,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_102_P7_W160578597928247591',
+    p_attribute_value => '160592490728187555____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 6003678705226527,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_102_P9_W23861295334296363',
+    p_attribute_value => '23874223123318242____',
     p_tenant_id => '');
 end;
 /
@@ -199,27 +217,54 @@ end;
 /
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3210182538506826,
+    p_id => 3203998432467553,
     p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP4600_P1_R10424237842079440_SORT',
-    p_attribute_value => 'sort_1_asc',
+    p_preference_name => 'FSP_IR_4000_P1500_W3519715528105919',
+    p_attribute_value => '3521529006112497____',
     p_tenant_id => '');
 end;
 /
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3210084120506823,
+    p_id => 3204049705467772,
     p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP4600_P1_R15607707130231509_SORT',
-    p_attribute_value => 'sort_1_asc',
+    p_preference_name => 'PERSISTENT_ITEM_P1_DISPLAY_MODE',
+    p_attribute_value => 'ICONS',
     p_tenant_id => '');
 end;
 /
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3209985497506821,
+    p_id => 3204273460467796,
     p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP4600_P1_R4876236258998332_SORT',
+    p_preference_name => 'FSP_IR_4000_P1_W3326806401130228',
+    p_attribute_value => '3328003692130542____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3204368697467811,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FB_FLOW_ID',
+    p_attribute_value => '100',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3204437116470973,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP100_P6_R8870322933589345658_SORT',
+    p_attribute_value => 'sort_2_asc',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3204599670470973,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP100_P6_R8870310831876331300_SORT',
     p_attribute_value => 'sort_1_asc',
     p_tenant_id => '');
 end;
@@ -235,19 +280,37 @@ end;
 /
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3799416957722974,
+    p_id => 3209876164506817,
     p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4000_P103_W47672728272203105',
-    p_attribute_value => '47674515570206794____',
+    p_preference_name => 'APEX_IG_5402528899234735_CURRENT_REPORT',
+    p_attribute_value => '27818993000237613:ICON',
     p_tenant_id => '');
 end;
 /
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3203998432467553,
+    p_id => 3209985497506821,
     p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4000_P1500_W3519715528105919',
-    p_attribute_value => '3521529006112497____',
+    p_preference_name => 'FSP4600_P1_R4876236258998332_SORT',
+    p_attribute_value => 'sort_1_asc',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3210084120506823,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP4600_P1_R15607707130231509_SORT',
+    p_attribute_value => 'sort_1_asc',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3210182538506826,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP4600_P1_R10424237842079440_SORT',
+    p_attribute_value => 'sort_1_asc',
     p_tenant_id => '');
 end;
 /
@@ -262,91 +325,10 @@ end;
 /
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3798488369693676,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4000_P1620_W312277037396040233',
-    p_attribute_value => '312279461465115193____',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
-    p_id => 3598346347618268,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4000_P1800_W15698721914328105',
-    p_attribute_value => '15700317824328377____',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
     p_id => 3210585919509903,
     p_user_id => 'GONZALEZFJU',
     p_preference_name => 'FSP_IR_4000_P1931_W249349528073883039',
     p_attribute_value => '309920184639832447____',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
-    p_id => 3204273460467796,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4000_P1_W3326806401130228',
-    p_attribute_value => '3328003692130542____',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
-    p_id => 3799259186722902,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4000_P9010_W1285528456517282',
-    p_attribute_value => '1287618134520444____',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
-    p_id => 3799629291723027,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4000_P9012_W1293214501583306',
-    p_attribute_value => '1295219398587025____',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
-    p_id => 3799077642722499,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4000_P9015_W1305831271713900',
-    p_attribute_value => '1307412228717448____',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
-    p_id => 3398588975516707,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4850_P110_W345304742814156446',
-    p_attribute_value => '349792885320463043____',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
-    p_id => 3399108619543100,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4850_P120_W349780070697459222',
-    p_attribute_value => '349830769421520089____',
-    p_tenant_id => '');
-end;
-/
-begin
-  wwv_imp_workspace.create_preferences$ (
-    p_id => 3398754152517068,
-    p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'FSP_IR_4850_P130_W708529861800941074',
-    p_attribute_value => '708580560525001941____',
     p_tenant_id => '');
 end;
 /
@@ -361,10 +343,154 @@ end;
 /
 begin
   wwv_imp_workspace.create_preferences$ (
-    p_id => 3204049705467772,
+    p_id => 3398588975516707,
     p_user_id => 'GONZALEZFJU',
-    p_preference_name => 'PERSISTENT_ITEM_P1_DISPLAY_MODE',
-    p_attribute_value => 'ICONS',
+    p_preference_name => 'FSP_IR_4850_P110_W345304742814156446',
+    p_attribute_value => '349792885320463043____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3398754152517068,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_4850_P130_W708529861800941074',
+    p_attribute_value => '708580560525001941____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3398873519517936,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'APEX_IG_754958438006534386_CURRENT_REPORT',
+    p_attribute_value => '754972509561557896:GRID',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3398956575522233,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'APEX_IG_359175352067742002_CURRENT_REPORT',
+    p_attribute_value => '359189423622765512:GRID',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3399108619543100,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_4850_P120_W349780070697459222',
+    p_attribute_value => '349830769421520089____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 6006015820248760,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_103_P1_W1007784724122598563',
+    p_attribute_value => '1002857149862590759____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 6006123508248760,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_103_P1_W1511529102699334065',
+    p_attribute_value => '1519190035445130243____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 6006214137248760,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP103_P1_R2962567724088400907_SORT',
+    p_attribute_value => 'sort_1_asc',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3598346347618268,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_4000_P1800_W15698721914328105',
+    p_attribute_value => '15700317824328377____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3798488369693676,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_4000_P1620_W312277037396040233',
+    p_attribute_value => '312279461465115193____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3799077642722499,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_4000_P9015_W1305831271713900',
+    p_attribute_value => '1307412228717448____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3799259186722902,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_4000_P9010_W1285528456517282',
+    p_attribute_value => '1287618134520444____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3799416957722974,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_4000_P103_W47672728272203105',
+    p_attribute_value => '47674515570206794____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 3799629291723027,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_4000_P9012_W1293214501583306',
+    p_attribute_value => '1295219398587025____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 4798475687313610,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_4000_P970_W9766127603736090',
+    p_attribute_value => '13441434626944710____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 4798659148315633,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP_IR_4000_P971_W9832206744401027',
+    p_attribute_value => '15125345793568912____',
+    p_tenant_id => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_preferences$ (
+    p_id => 4798712012318472,
+    p_user_id => 'GONZALEZFJU',
+    p_preference_name => 'FSP4000_P973_R7508268365098829_SORT',
+    p_attribute_value => 'sort_5_desc',
     p_tenant_id => '');
 end;
 /
@@ -386,10 +512,88 @@ end;
 begin
   wwv_imp_workspace.create_user_access_log2$ (
     p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202603311049','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202603311049','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202603311057','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
     p_auth_method => 'Collections Built-In Auth',
-    p_app => 101,
+    p_app => 100,
     p_owner => 'APEXPDB',
-    p_access_date => to_date('202603281537','YYYYMMDDHH24MI'),
+    p_access_date => to_date('202603311058','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202604020926','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202604020929','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Builder Extension Sign-in',
+    p_app => 102,
+    p_owner => 'APEXPDB',
+    p_access_date => to_date('202604020937','YYYYMMDDHH24MI'),
     p_ip_address => '10.0.2.150',
     p_remote_user => 'APEX_PUBLIC_USER',
     p_auth_result => 0,
@@ -417,6 +621,175 @@ begin
     p_owner => 'APEX_240100',
     p_access_date => to_date('202603281535','YYYYMMDDHH24MI'),
     p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Collections Built-In Auth',
+    p_app => 101,
+    p_owner => 'APEXPDB',
+    p_access_date => to_date('202603281537','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202603300719','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.201',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Collections Built-In Auth',
+    p_app => 100,
+    p_owner => 'APEXPDB',
+    p_access_date => to_date('202603300721','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.201',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Oracle APEX Accounts',
+    p_app => 103,
+    p_owner => 'APEXPDB',
+    p_access_date => to_date('202604020946','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202604031830','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Builder Extension Sign-in',
+    p_app => 102,
+    p_owner => 'APEXPDB',
+    p_access_date => to_date('202604031830','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Collections Built-In Auth',
+    p_app => 100,
+    p_owner => 'APEXPDB',
+    p_access_date => to_date('202604031831','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202603311308','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202603300732','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202603300734','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Collections Built-In Auth',
+    p_app => 100,
+    p_owner => 'APEXPDB',
+    p_access_date => to_date('202603300735','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202603301003','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.150',
+    p_remote_user => 'APEX_PUBLIC_USER',
+    p_auth_result => 0,
+    p_custom_status_text => '');
+end;
+/
+begin
+  wwv_imp_workspace.create_user_access_log2$ (
+    p_login_name => 'GONZALEZFJU',
+    p_auth_method => 'Internal Authentication',
+    p_app => 4100,
+    p_owner => 'APEX_240100',
+    p_access_date => to_date('202603281732','YYYYMMDDHH24MI'),
+    p_ip_address => '10.0.2.201',
     p_remote_user => 'APEX_PUBLIC_USER',
     p_auth_result => 0,
     p_custom_status_text => '');
@@ -1277,13 +1650,13 @@ end;
 prompt  SCHEMA APEXPDB - User Interface Defaults, Table Defaults
 --
 -- Import using sqlplus as the Oracle user: APEX_240100
--- Exported 16:27 Saturday March 28, 2026 by: 
+-- Exported 08:58 Monday April 13, 2026 by: 
 --
  
 --------------------------------------------------------------------
 prompt User Interface Defaults, Attribute Dictionary
 --
--- Exported 16:27 Saturday March 28, 2026 by: 
+-- Exported 08:58 Monday April 13, 2026 by: 
 --
 -- SHOW EXPORTING WORKSPACE
  
