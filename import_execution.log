@@ -1,31 +1,4 @@
---- Creando Workspace TEST
---application/set_environment
-WORKSPACE 5401601323772619
-Creating workspace TEST...
-Creating Groups...
-Creating group grants...
-Creating Users...
-Importing Blueprint DEMO...
-Importing Blueprint EMPLOYES...
-Check Compatibility...
-...feedback
-...Issue Templates
-...Issue Email Prefs
-...Label Groups
-...Labels
-... Milestones
-... Issues
-... Issue Attachments
-... Issues Milestones
-... Issues Labels
-... Issues stakeholders
-... Issues Comments
-... Issues Events
-... Issues Notifications
-...RESTful Services
-SCHEMA APEXPDB - User Interface Defaults, Table Defaults
-User Interface Defaults, Attribute Dictionary
-...done
+--- Workspace TEST ya existe. Saltando creación.
 --- Configurando Sesión para TEST
 
 PL/SQL procedure successfully completed.
@@ -2581,32 +2554,7 @@ APPLICATION 215 - (TEMA17)Implementing Security in your Application
 --application/deployment/buildoptions
 --application/end_environment
 ...done
---- Creando Workspace TEST2
---application/set_environment
-WORKSPACE 7605142232319369
-Creating workspace TEST2...
-Creating Groups...
-Creating group grants...
-Creating Users...
-Check Compatibility...
-...feedback
-...Issue Templates
-...Issue Email Prefs
-...Label Groups
-...Labels
-... Milestones
-... Issues
-... Issue Attachments
-... Issues Milestones
-... Issues Labels
-... Issues stakeholders
-... Issues Comments
-... Issues Events
-... Issues Notifications
-...RESTful Services
-SCHEMA APEXPDB - User Interface Defaults, Table Defaults
-User Interface Defaults, Attribute Dictionary
-...done
+--- Workspace TEST2 ya existe. Saltando creación.
 --- Configurando Sesión para TEST2
 
 PL/SQL procedure successfully completed.
@@ -2813,34 +2761,7 @@ APPLICATION 103 - Sample Calendar
 --application/deployment/buildoptions
 --application/end_environment
 ...done
---- Creando Workspace TESTWORKSPACE
---application/set_environment
-WORKSPACE 3200966620849279
-Creating workspace TESTWORKSPACE...
-Creating Groups...
-Creating group grants...
-Creating Users...
-Importing Blueprint COST2...
-Check Compatibility...
-...feedback
-...Issue Templates
-...Issue Email Prefs
-...Label Groups
-...Labels
-... Milestones
-... Issues
-... Issue Attachments
-... Issues Milestones
-... Issues Labels
-... Issues stakeholders
-... Issues Comments
-... Issues Events
-... Issues Notifications
-...RESTful Services
-SCHEMA APEXPDB - User Interface Defaults, Table Defaults
-SCHEMA UT3 - User Interface Defaults, Table Defaults
-User Interface Defaults, Attribute Dictionary
-...done
+--- Workspace TESTWORKSPACE ya existe. Saltando creación.
 --- Configurando Sesión para TESTWORKSPACE
 
 PL/SQL procedure successfully completed.
