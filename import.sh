@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # --- CONFIGURACIÓN LABORATORIO ---
-DB_USER="APEX_240200"
+DB_USER="APEX_260100"
 DB_PASS="123"
 DB_HOST="server21"
-DB_PORT="31521"
-DB_SERVICE="oraclepdb2"
-SOURCE_ENV="xepdb1"
+DB_PORT="1521"
+DB_SERVICE="oraclepdb3"
+SOURCE_ENV="oraclepdb2"
 SQLCL_CMD="sqlcl"
 
 # Rutas
