@@ -1,0 +1,212 @@
+page 1 (
+    name: Home
+    alias: HOME
+    title: APEX AI
+    appearance {
+        pageTemplate: @/standard
+        templateOptions: #DEFAULT#
+    }
+    navigation {
+        cursorFocus: doNotFocusCursor
+    }
+    css {
+        inline:
+            ```css
+            body, .t-Page, .t-Page--content, .t-Page--article { background-color: #007bff !important; }
+            ```
+    }
+    security {
+        pageAccessProtection: argumentsMustHaveChecksum
+        formAutoComplete: false
+    }
+
+    region apex-ai (
+        name: APEX AI
+        type: staticContent
+        layout {
+            sequence: 10
+            slot: breadcrumbBar
+        }
+        appearance {
+            template: @/hero
+            templateOptions: #DEFAULT#
+        }
+        image {
+            fileUrl: #APP_FILES#icons/app-icon-512.png
+        }
+    )
+
+    region asistente-virtual (
+        name: Asistente Virtual
+        type: staticContent
+        layout {
+            sequence: 10
+            slot: body
+        }
+        appearance {
+            template: @/standard
+            templateOptions: [
+                #DEFAULT#
+                t-Region--scrollBody
+            ]
+        }
+        advanced {
+            htmlDomId: mi_contenedor_chat
+        }
+    )
+
+    region chat (
+        name: Chat
+        type: staticContent
+        layout {
+            sequence: 40
+            slot: body
+        }
+        appearance {
+            template: @/standard
+            templateOptions: [
+                #DEFAULT#
+                t-Region--scrollBody
+            ]
+        }
+    )
+
+    pageItem P1_PREGUNTA (
+        type: textarea
+        label {
+            label: Pregunta
+            alignment: left
+        }
+        layout {
+            sequence: 40
+            region: @chat
+            slot: regionBody
+            alignment: left
+            startNewRow: false
+        }
+        appearance {
+            template: @/optional-floating
+            templateOptions: #DEFAULT#
+            width: 30
+            height: 5
+        }
+    )
+
+    pageItem P1_RESPUESTA (
+        type: displayOnly
+        label {
+            label: Respuesta
+            alignment: left
+        }
+        settings {
+            format: html
+        }
+        layout {
+            sequence: 30
+            region: @chat
+            slot: regionBody
+            alignment: left
+        }
+        appearance {
+            template: @/optional-floating
+            templateOptions: #DEFAULT#
+        }
+    )
+
+    button btn-abrir-chat (
+        buttonName: BTN_ABRIR_CHAT
+        label: Preguntar a Gemini
+        layout {
+            sequence: 20
+            slot: body
+        }
+        appearance {
+            buttonTemplate: @/text
+            templateOptions: #DEFAULT#
+        }
+        behavior {
+            action: definedByDynamicAction
+        }
+    )
+
+    button btn-enviar (
+        buttonName: BTN_ENVIAR
+        label: Btn Enviar
+        layout {
+            sequence: 50
+            region: @chat
+            slot: regionBody
+        }
+        appearance {
+            buttonTemplate: @/text-with-icon
+            hot: true
+            templateOptions: [
+                #DEFAULT#
+                t-Button--iconLeft
+            ]
+        }
+        behavior {
+            action: definedByDynamicAction
+        }
+    )
+
+    dynamicAction lanzar-chat (
+        name: Lanzar Chat
+        execution {
+            sequence: 20
+        }
+        when {
+            event: ready
+        }
+
+        action native-open-ai-assistant (
+            action: showAiAssistant
+            genAI {
+                agent: @gemini-3-flash-preview
+            }
+            appearance {
+                displayAs: inline
+                containerSelector: #mi_contenedor_chat
+            }
+            execution {
+                sequence: 10
+            }
+        )
+
+    )
+
+    dynamicAction llamar-a-gemini (
+        name: Llamar a Gemini
+        execution {
+            sequence: 10
+        }
+        when {
+            event: click
+            selectionType: button
+            button: @btn-enviar
+        }
+
+        action native-generate-text-ai (
+            action: generateTextWithAi
+            genAI {
+                agent: @gemini-3-flash-preview
+            }
+            inputValue {
+                item: P1_PREGUNTA
+            }
+            useResponse {
+                item: P1_RESPUESTA
+                suppressChangeEvent: true
+            }
+            execution {
+                sequence: 10
+                fireOnInit: false
+            }
+        )
+
+    )
+
+)
+
+
+

@@ -1,0 +1,103 @@
+app APEX-AI109103301 (
+    name: APEX AI
+    genAI {
+        service: @gemini_ia
+    }
+    logo {
+        type: text
+        text: APEX AI
+    }
+    navigation {
+        homeUrl: {
+            page: 1
+        }
+        loginUrl: {
+            page: LOGIN
+        }
+    }
+    navigationMenu {
+        listTemplate: @/side-navigation-menu
+        templateOptions: [
+            #DEFAULT#
+            t-TreeNav--styleA
+            js-navCollapsed--hidden
+        ]
+        list: @navigation-menu
+    }
+    navigationBar {
+        list: @navigation-bar
+        listTemplate: @/navigation-bar
+        templateOptions: #DEFAULT#
+    }
+    userInterface {
+        currentTheme: @universal-theme
+        globalPage: 0
+        addBuiltWithApexToFooter: false
+    }
+    appFormatMasks {
+        date: DS
+        timestamp: DS
+        timestampTimeZone: DS
+    }
+    authentication {
+        scheme: @oracle-apex-accounts
+    }
+    authorization {
+        scheme: @reader-rights
+    }
+    security {
+        runtimeApiUsage: modifyThisApp
+    }
+    sessionStateProtection {
+        checksumSalt: C4E99D25195606481E1539E09479932A3FFC155B45549E74326378D198E94242
+    }
+    globalization {
+        primaryLanguage: es
+    }
+    progressiveWebApp {
+        installable: true
+        enablePushNotifications: true
+        pushNotificationsCredentials: @App_110_Push_Notifications_Credentials
+    }
+    runtime {
+        allowFeedback: true
+        compatibilityMode: 24.2
+    }
+
+    substitution APP_NAME (
+        value {
+            staticValue: APEX AI
+        }
+    )
+
+    appSetting ACCESS_CONTROL_SCOPE (
+        value {
+            staticValue: ACL_ONLY
+            onUpgradeKeepValue: true
+        }
+        validation {
+            validValues: ACL_ONLY, ALL_USERS
+        }
+        config {
+            buildOption: @feature-access-control
+        }
+        comments {
+            comments: The default access level given to authenticated users who are not in the access control list
+        }
+    )
+
+    appSetting FEEDBACK_ATTACHMENTS_YN (
+        value {
+            staticValue: Y
+            onUpgradeKeepValue: true
+        }
+        validation {
+            validValues: Y, N
+        }
+        config {
+            buildOption: @feature-feedback
+        }
+    )
+
+)
+

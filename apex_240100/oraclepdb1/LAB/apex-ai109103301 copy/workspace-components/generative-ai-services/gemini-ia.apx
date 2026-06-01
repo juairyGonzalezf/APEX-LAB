@@ -1,0 +1,18 @@
+genAIService gemini_ia (
+    name: GEMINI_IA
+    provider: googleGemini
+    endpointUrl {
+        url: https://generativelanguage.googleapis.com/v1beta
+    }
+    authentication {
+        credentials: @gemini_credentials
+    }
+    appBuilder {
+        usedByAppBuilder: true
+        defaultForNewApps: true
+    }
+    advanced {
+        modelName: gemini-2.5-flash
+    }
+)
+

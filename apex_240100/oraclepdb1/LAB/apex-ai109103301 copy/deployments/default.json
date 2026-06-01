@@ -1,0 +1,11 @@
+{
+  "app" : {
+    "id" : 301,
+    "runtime" : {
+      "debugging" : true
+    }
+  },
+  "workspace" : {
+    "name": "LAB"
+  }
+}

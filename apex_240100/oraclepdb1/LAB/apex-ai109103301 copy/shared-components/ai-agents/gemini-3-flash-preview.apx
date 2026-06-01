@@ -1,0 +1,66 @@
+aiAgent gemini-3-flash-preview (
+    name: gemini-3-flash-preview
+    genAI {
+        service: @gemini_ia
+        systemPrompt: "\"Eres un asistente experto en bases de datos Oracle. Tu objetivo es ayudar a los desarrolladores a entender la estructura de la base de datos y de las aplicaciones APEX del Workspace. Responde de forma clara y estructurada.\""
+    }
+
+    tool consultar-diccionario-datos (
+        name: consultar_diccionario_datos
+        type: retrieveData
+        executionPoint: onDemand
+        description: “Esta herramienta permite consultar la estructura de la base de datos del usuario. Devuelve las tablas existentes, sus columnas y tipos de datos cuando el usuario pregunte por la estructura actual.
+        settings {
+            sqlQuery:
+                ```sql
+                select CUSTOMER_ORDER_PRODUCTS.ORDER_ID as ORDER_ID,
+                    CUSTOMER_ORDER_PRODUCTS.ORDER_DATETIME as ORDER_DATETIME,
+                    CUSTOMER_ORDER_PRODUCTS.ORDER_STATUS as ORDER_STATUS,
+                    CUSTOMER_ORDER_PRODUCTS.CUSTOMER_ID as CUSTOMER_ID,
+                    CUSTOMER_ORDER_PRODUCTS.EMAIL_ADDRESS as EMAIL_ADDRESS,
+                    CUSTOMER_ORDER_PRODUCTS.FULL_NAME as FULL_NAME,
+                    CUSTOMER_ORDER_PRODUCTS.ORDER_TOTAL as ORDER_TOTAL,
+                    CUSTOMER_ORDER_PRODUCTS.ITEMS as ITEMS 
+                 from CUSTOMER_ORDER_PRODUCTS CUSTOMER_ORDER_PRODUCTS
+                ```
+        }
+    )
+
+    tool ejecutar-comando-ddl (
+        name: ejecutar_comando_ddl
+        type: retrieveData
+        executionPoint: onDemand
+        description: Esta herramienta ejecuta comandos SQL de tipo DDL (CREATE, ALTER, DROP) directamente en el esquema de la base de datos. Úsala cuando el usuario te pida explícitamente crear una tabla, añadir una columna o modificar un objeto existente.
+        settings {
+            type: functionBody
+            language: plsql
+            plsqlFunctionBody:
+                ```plsql
+                DECLARE
+                    v_resultado CLOB;
+                BEGIN
+                    -- 1. Ejecuta el comando que la IA ha generado (fíjate en los dos puntos)
+                    EXECUTE IMMEDIATE :p_sql_command;
+                    
+                    -- 2. Devuelve un mensaje de éxito para que la IA sepa que todo fue bien
+                    v_resultado := 'El comando se ejecutó correctamente en la base de datos.';
+                    RETURN v_resultado;
+                    
+                EXCEPTION
+                    WHEN OTHERS THEN
+                        -- 3. Si hay un error de SQL (ej. la tabla ya existe), se lo devolvemos a la IA
+                        -- para que se lo explique al usuario o intente arreglarlo.
+                        v_resultado := 'Error al ejecutar el comando: ' || SQLERRM;
+                        RETURN v_resultado;
+                END;
+                ```
+        }
+
+        parameter P_SQL_COMMAND (
+            description: El comando SQL/DDL completo y válido que se va a ejecutar en la base de datos.
+        )
+
+    )
+
+)
+
