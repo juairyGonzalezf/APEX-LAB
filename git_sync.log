@@ -953,3 +953,10 @@ Please make sure you have the correct access rights
 and the repository exists.
 [home/tomcat/import 32d15c4] Auto-sync: 2026-07-20 11:29:46
  1 file changed, 7 insertions(+)
+[home/tomcat/import a1e3ecc] Auto-sync: 2026-07-20 11:40:23
+ 1 file changed, 2 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
