@@ -944,3 +944,10 @@ To github.com:juairyGonzalezf/APEX-LAB.git
  1 file changed, 4 insertions(+)
 To github.com:juairyGonzalezf/APEX-LAB.git
    c9cd46a..5636fbb  home/tomcat/import -> home/tomcat/import
+[home/tomcat/import 56a0c23] Auto-sync: 2026-07-20 11:24:54
+ 1 file changed, 4 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
