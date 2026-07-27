@@ -1,0 +1,16 @@
+authentication keycloak-sso (
+    name: Keycloak SSO
+    type: socialSignIn
+    settings {
+        credentialStore: @KEYCLOAK_CREDS
+        discoveryUrl: http://10.0.2.218:8080/realms/master/.well-known/openid-configuration
+        scope: openid profile email
+        username: #preferred_username#
+    }
+)
+
+authentication oracle-apex-accounts (
+    name: Oracle APEX Accounts
+    type: oracleApexAccounts
+)
+
